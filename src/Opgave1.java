@@ -43,7 +43,7 @@ public class Opgave1 {
         }
     }
 
-    public int UserInputValidate() {
+    private int UserInputValidate() {
         String userInput;
         int parsedInt = 0;
         Scanner scanner = new Scanner(System.in);
