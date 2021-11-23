@@ -1,3 +1,4 @@
+import java.util.Random;
 import java.util.Scanner;
 
 public class Opgave1 {
@@ -5,9 +6,13 @@ public class Opgave1 {
     public void RigtigRegning() {
         int a, b, c, userInput;
 
-        a = (int)(Math.random() * 22);
-        b = (int)(Math.random() * 22);
-        c = (int)(Math.random() * 4);
+        Random random1 = new Random();
+        Random random2 = new Random();
+        Random random3 = new Random();
+
+        a = random1.nextInt(1,22);
+        b = random2.nextInt(1,22);
+        c = random3.nextInt(1,4);
         
         switch (c) {
             case 1:
