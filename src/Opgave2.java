@@ -31,7 +31,7 @@ public class Opgave2 {
                 parsedNumber = Integer.parseInt(userInput);
                 break;
             } catch (Exception e) {
-                System.out.println("Du skal skrive et hel tal");
+                System.out.println("You must write an integer");
             }            
         }
         CheckGuess(parsedNumber);
